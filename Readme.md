@@ -1,4 +1,4 @@
-Dockerfile:
+#Dockerfile:
 
 
 Предоставленный Dockerfile начинается с базового образа python:3.11-slim,
@@ -39,7 +39,7 @@ PYTHONUNBUFFERED
 команда копирует все файлы из локального каталога в /codeкаталог внутри контейнера.
 
 
-Docker-compose:
+#Docker-compose:
 
 
 Ключ version указывает версию используемого синтаксиса файла Compose,
